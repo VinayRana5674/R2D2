@@ -1,0 +1,28 @@
+body{
+	margin:0;
+	padding:0;
+	background:#fff;
+	overflow-x:hidden;
+	font-family:"Josefin" !important;
+
+}
+#movies img, #movie img{
+  width: 100%;
+}
+
+@media(min-width:950px){
+  #movies .col-md-3 .well{
+    height: 380px;
+  }
+
+  #movies .col-md-3 img{
+    height: 230px;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
