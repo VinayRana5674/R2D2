@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta  content="width=device-width, initial-scale=1">
+    <title>TMDb Database</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</style> 
+</head>
+	<body>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div style="color:#eb6e80" class="carousel-inner">
+
+      
+      </div>
+
+      
+  
+    </div>
+
+    <div class="container">
+      <div class="jumbotron">
+	  <img src="images/R.png"  class="center">
+        <h3 class="text-center" align="middle">Search for Movies, TV Shows</h3>
+		
+        <form id="searchForm" name="searchForm" method="get" action="https://www.imdb.com/find" >
+          <input type="text" id="searchText" placeholder="Search For Movie...." class= "form-control" name="searchText" size="200px" />
+        </form>
+      </div>
+    </div>
+	<div id="response"></div>
+
+    <div class="container">
+      <div id="movies" class="row"></div>
+    </div>
+
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/axios.min.js"></script>
+	
+    <script type="text/javascript" src="js/main.js"></script>
+<body style ="background: url(images/5.jpg)  " >
+</body>
+</html>
